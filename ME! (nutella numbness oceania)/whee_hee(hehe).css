@@ -1,7 +1,8 @@
-body { background-image: linear-gradient(to left,rgb(111, 111, 111),rgb(0, 0, 0));}
+body {
+    background-image: linear-gradient(rgb(255, 255, 255),rgba(0, 0, 0, 0.256));}
 body {text-align: center;}
-p {color: white;}
-h1 {color:lightgray;}
+p {color: rgb(7,77,77);}
+h1 {color:rgb(7, 77, 77);}
 body {font-family:cursive;}
 .flex-container {
     display: flex;
@@ -15,19 +16,19 @@ body {font-family:cursive;}
     padding: 15px;
 }
 a:link {
-    color: lightgray;
+    color: green;
     background-color: transparent;
     text-decoration: none;
   }
   a:visited {
-    color: lightgray;
+    color: rgb(12, 7, 77);
     background-color: transparent;
     text-decoration: none;
   }
   a:hover {
-    color:lightgray;
+    color:rgb(12, 7, 77);
     background-color: transparent;
     font-size: 17px;
-    text-decoration: underline;
+    transition: ease-in-out 0.5s;
   }
   
