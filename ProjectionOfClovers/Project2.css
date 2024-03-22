@@ -1,0 +1,13 @@
+.flex-container {
+    display: grid;
+    gap: 0 0;
+    }
+    
+    .flex-item img {
+        width: 100px;
+        height: 100px;
+    }
+    
+    .flex-item {
+        flex: 1;
+    }
