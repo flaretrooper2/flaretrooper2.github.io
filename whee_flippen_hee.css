@@ -1,4 +1,4 @@
-body { background-image: linear-gradient(to top, rgb(111, 111, 111),rgb(0, 0, 0));}
+body { background-image: linear-gradient(rgb(111, 111, 111),rgb(0, 0, 0));}
 body {text-align: center;}
 p {color: white;}
 h1 {color:lightgray;}
