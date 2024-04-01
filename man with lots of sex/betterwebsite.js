@@ -1,0 +1,1 @@
+<img href="Coronavirus._SARS-CoV-2.png">

@@ -1,15 +1,25 @@
 .flex-container {
     display: grid;
     gap: 0 0;
-     align-items: center;
+    
 }
     .flex-item img {
         width: 250px;
         height: 200px;
+    align-items: center; 
     }
+
     
     .flex-item {
         flex: 1;
     }
  body {
-    background-color: black}
+    background-color:black}
+    
+    .flex-item {
+        flex-direction: column;
+          margin: 5px;
+          padding: 20px;
+          background: grey; 
+         flex: 1; 
+    }

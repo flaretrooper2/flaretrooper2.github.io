@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Full-Screen Video Background</title>
+    <title>Full-Screen Video and Audio Background</title>
     <style>
         body, html {
             margin: 0;
@@ -11,7 +11,7 @@
             height: 100%;
         }
 
-        #video-background {
+        #video-background, #audio-background {
             position: fixed;
             top: 0;
             left: 0;
@@ -38,13 +38,13 @@
     </video>
 
     <audio id="audio-background" autoplay loop>
-      <source src="music.mp3" type="audio/mp3">
-      Your browser does not support the audio tag.
-  </audio>
+        <source src="music.mp3" type="audio/mpeg">
+        Your browser does not support the audio tag.
+    </audio>
 
     <div class="content">
-        <h1>Welcome to the Fire Video Website</h1>
-        <p>This is a demo website with a full-screen video background.</p>
+        <h1>Welcome to the Fire Video and Music Website</h1>
+        <p>This is a demo website with a full-screen video and audio background.</p>
     </div>
 
 </body>

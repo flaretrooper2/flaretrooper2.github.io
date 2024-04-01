@@ -1,9 +1,11 @@
-body {
-    background-image: linear-gradient(to left,green,purple);}
+html {
+    background-image: linear-gradient(to bottom,rgb(255, 255, 255),rgb(131, 131, 131));
+     height:100%;
+     }
 
 body {text-align: center;}
-p {color: white;}
-h1 {color:lightgray;}
+p {color: rgb(0, 0, 0);}
+h1 {color:rgb(0, 0, 0);}
 body {font-family:cursive;}
 .flex-container {
     display: flex;
@@ -22,12 +24,12 @@ a:link {
     text-decoration: none;
   }
   a:visited {
-    color: lightgray;
+    color: rgb(0, 0, 0);
     background-color: transparent;
     text-decoration: none;
   }
   a:hover {
-    color:lightgray;
+    color:rgb(39, 17, 17);
     background-color: transparent;
     font-size: 17px;
     text-decoration: underline;
